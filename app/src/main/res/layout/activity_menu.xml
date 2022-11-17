@@ -21,9 +21,10 @@
         android:layout_marginTop="32dp"
         android:layout_marginBottom="80dp"
         android:gravity="center"
-        android:text="로그인하기"
+        android:text="메뉴하기"
+        android:textColor="@color/black"
         android:textSize="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -60,4 +61,23 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="57dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="56dp"
+        android:text="From"
+        app:layout_constraintBottom_toTopOf="@+id/textView_menu_Result"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:textSize="20dp"
+        android:id="@+id/textView_menu_Result"
+        android:layout_width="286dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="432dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline3" />
 </androidx.constraintlayout.widget.ConstraintLayout>
